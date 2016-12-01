@@ -1,0 +1,31 @@
+public class Calculator {
+	
+	// 메소드의 오버로딩
+	// 같은 이름으로 변수를 만들수 있으나, 매개변수의 타입 혹은 개수가 달라야함
+	// 변수명이 다른것은 성립되지 않음.
+
+	// 사용이유 : 동일 혹은 유사한 작업은 동일한 이름으로 할것
+
+	// 정수 2개를 전달받아서 합을 계산하고 반환하는 메소드
+	public int plus(int a, int b){
+		System.out.println("정수 + 정수");
+		return a + b;
+	}
+	// 실수 2개를 전달받아서 합을 계산하고 반환하는 메소드
+	public double plus(double a, double b){
+		System.out.println("실수 + 실수");
+		return a + b;
+	}	
+	// 정수 3개를 전달받아서 합을 계산하고 반환하는 메소드
+	public int plus(int a, int b, int c) {
+		System.out.println("정수 + 정수 + 정수");
+		return a + b +c;
+	}
+	// 실수 3개를 전달받아서 합을 계산하고 반환하는 메소드
+	public double plus(double a, double b, double c) {
+		System.out.println("실수 + 실수 + 실수");	
+		return a + b +c;
+	}
+
+
+}

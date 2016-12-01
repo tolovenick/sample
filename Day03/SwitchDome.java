@@ -1,0 +1,24 @@
+public class SwitchDome {
+	public static void main(String[] args) {
+
+		String grade = "Silver";
+
+
+		switch (grade) {
+			case "Gold":
+				System.out.println("°ñµåµî±Þ È¸¿ø´Ô");
+				break;
+			case "Silver":
+				System.out.println("½Ç¹öµî±Þ È¸¿ø´Ô");
+				break;
+			case "Bronze":
+				System.out.println("ºê·ÐÁîµî±Þ È¸¿ø´Ô");
+				break;
+			default: 
+				System.out.println("È¸¿ø´Ô");
+	}
+
+}
+
+}
+

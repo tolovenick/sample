@@ -1,0 +1,23 @@
+public class Employee {
+     // 속성
+     // 사원번호, 이름 , 전화번호 , 소속부서 , 직위 , 급여
+	
+	int no;
+	String name;
+	String phoneNumber;
+	String department;
+	String spot;
+	int salary;
+
+     // 기능
+     // 연봉을 계산해서 반환하는 메소드
+     // 사원의 모든정보를 출력하는 메소드
+	public int salaryCount() {
+		int result = (salary * 12);
+		return result;
+	}
+
+	public void allData(){
+		System.out.printf(" %d번 | 이름 :%s | 전화번호 :%s | 소속부서 :%s | 부서 : %s | 급여 :%d | \n",no,name,phoneNumber,department,spot,salary);
+	}
+}

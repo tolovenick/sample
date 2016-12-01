@@ -1,0 +1,21 @@
+public class BtestApp {
+	public static void main(String[] args) {
+// 1) 배열을 전달받아서 그 배열에서 가장 큰 값을 반환하는 메소드
+// 2) 배열과 숫자를 전달받아서 그 배열에 숫자가 포함되어있는지 여부를 반환하는 메소드
+	
+	Btest t1 = new Btest();
+
+	t1.list[0] = 10;
+	t1.list[1] = 20;
+	t1.list[2] = 30;
+	System.out.printf(" %d 가 가장 큰수 입니다.\n",t1.mostNumber());
+
+	t1.existNumber = 10;
+			if(t1.yesNumber() == true) {
+				System.out.printf(" %d 가 존재하지 않습니다. \n",t1.existNumber);
+			}	else {
+				System.out.printf(" %d 가 존재합니다. \n",t1.existNumber);
+
+		}
+	}
+}

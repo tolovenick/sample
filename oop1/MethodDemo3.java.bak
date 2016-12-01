@@ -1,0 +1,20 @@
+public class MethodDemo3 {
+	// 난수를 발생시키는 메소드 만들기
+
+	public static int random() {
+		Random r = new Random();
+		int number = r.nextInt(100);
+		return number;   // 리턴키워드 ( int 라는 반환형을 표시했기때문에 return 으로 값을 반환한다 )
+	}
+	
+	public static void a() {
+		
+	}
+
+	public static void main(String[] args) {
+		int x = random();
+		System.out.println(random() * 100);
+	}
+
+
+}

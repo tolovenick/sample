@@ -1,0 +1,12 @@
+public class Demo2 {
+	public static void main(String[] args) {
+		// 실수타입
+		// float사용시 f를 표시함
+		float a = 3.14f;
+		double b = 3.14;
+
+
+
+
+	}
+}

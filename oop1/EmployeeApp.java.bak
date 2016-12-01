@@ -1,0 +1,39 @@
+public class EmployeeApp {
+	public static void main(String[] args) {
+
+	Employee a1 = new Employee();
+	Employee a2 = new Employee();
+	Employee a3 = new Employee();
+
+	a1.no = 1;
+	a1.name = "김김김";
+	a1.phoneNumber = "000-000-0000";
+	a1.department = "영업팀";
+	a1.spot = "대리";
+	a1.salary = 200;
+	
+	a2.no = 2;
+	a2.name = "나나나";
+	a2.phoneNumber = "111-111-1111";
+	a2.department = "개발팀";
+	a2.spot = "사원";
+	a2.salary = 100;
+
+	a3.no = 3;
+	a3.name = "라라라";
+	a3.phoneNumber = "222-222-2222";
+	a3.department = "전산팀";
+	a3.spot = "과장";
+	a3.salary = 300;
+
+	System.out.printf(" %s 의 연봉은 %d 만원 \n",a1.name,a1.salaryCount() );
+	System.out.printf(" %s 의 연봉은 %d 만원 \n",a2.name,a2.salaryCount() );
+	System.out.printf(" %s 의 연봉은 %d 만원 \n",a3.name,a3.salaryCount() );
+
+	a1.allData();
+	a2.allData();
+	a3.allData();
+
+	}
+
+}

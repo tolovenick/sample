@@ -1,0 +1,18 @@
+public class Product {
+	int no;
+	String name;
+	String maker;
+	int price;
+	double discountRate;
+
+	public Product() {
+	}
+
+	public Product(int a, String b, String c, int d, double e) {
+		no = a;
+		name = b;
+		maker = c;
+		price = d;
+		discountRate = e;
+	}
+}
